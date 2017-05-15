@@ -1,3 +1,6 @@
 name: Lewis Cawthorne, Software Developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+paginate: 5
+paginate_path: "/blog/page:num"
+gems: [jekyll-paginate]

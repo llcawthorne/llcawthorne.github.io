@@ -1,9 +1,32 @@
 ---
 layout: default
+home: passive
+about: passive
+resume: passive
+blog: active
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
-</div>
+<div class="posts">
+    <div class="post single">
+      <h1 class="title">{{ page.title }}</h1>
+      
+      <h2 class="date"><info datetime="{{ page.date }}">
+        {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+      </info></h2>
+      <!-- Post content -->
+      <div class="postbody">
+        {{ content }}
+      </div>
+      <!-- Post info -->
+      <div class="postinfo">
+      <!-- include some categories and tags maybe? -->
+      </div>
+
+      <hr>
+
+      <!-- Post comments -->
+      <div class="postcomments">
+        {% include disqus.html %}	 
+      </div><!-- .postcomments -->
+    </div><!-- / .post single -->
+</div><!-- /.posts -->
