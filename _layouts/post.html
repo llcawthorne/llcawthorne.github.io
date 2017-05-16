@@ -7,32 +7,31 @@ blog: active
 ---
 
 <div class="posts">
-    <div class="post single">
-      <h1 class="title">{{ page.title }}</h1>
+  <div class="post single">
+    <h1 class="title">{{ page.title }}</h1>
       
       <h2 class="date"><info datetime="{{ page.date }}">
         {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
       </info></h2>
-		  {% if page.tags %} | 
-			  {% for tag in page.tags %}
-			    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" 
-					class="post-tag">{{ tag }}</a>
-			  {% endfor %}
-		  {% endif %}
       <!-- Post content -->
       <div class="postbody">
         {{ content }}
       </div>
       <!-- Post info -->
       <div class="postinfo">
-      <!-- include some categories and tags maybe? -->
+      {% if page.tags %} Tag{% if post.tags.size > 1 %}s{% endif %}:  
+      {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" 
+           class="post-tag">{{ tag }}</a>
+      {% endfor %}
+      {% endif %}
       </div>
 
       <hr>
 
       <!-- Post comments -->
       <div class="postcomments">
-        {% include disqus.html %}	 
+	  {% include disqus.html %}	 
       </div><!-- .postcomments -->
     </div><!-- / .post single -->
 </div><!-- /.posts -->
