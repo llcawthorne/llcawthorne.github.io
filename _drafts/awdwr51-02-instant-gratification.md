@@ -2,6 +2,7 @@
 layout: post
 title: "AWDWR 5.1 - 02 - Instant Gratification"
 date: 2017-05-17
+tags: ruby rails awdwr51 web
 ---
 
 So, I fixed my mistake from last time.  I had originally installed ruby via 
