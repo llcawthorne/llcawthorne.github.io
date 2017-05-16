@@ -2,6 +2,7 @@
 layout: post
 title: "Lewis Cawthorne Launches Site"
 date: 2017-05-15
+tags: first_post
 ---
 
 Finally got around to putting something together for my github.io site other
