@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Agile Web Development with Rails 5.1 - 01 - Introduction"
+title: "AWDWR 5.1 - 01 - Introduction"
 date: 2017-05-16
 tags: ruby rails awdwr51 web
 ---
