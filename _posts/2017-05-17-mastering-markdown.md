@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Markdown"
 date: 2017-05-17
-tags: markdown
+tags: markdown video
 ---
 
 Well, for something a little different, I decided to write my opinion of a 
