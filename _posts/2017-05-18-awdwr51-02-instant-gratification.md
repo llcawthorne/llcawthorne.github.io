@@ -13,20 +13,20 @@ homebrew, but now that I've read up on rbenv, it seems a lot nicer than the
 old rvm, and I might want multiple versions of Ruby on my home PC.  So I 
 uninstalled Ruby 2.4 and went with `brew install rbenv` and then used
 it to install the latest Ruby.  I see why the book authors prefer it over
-RVM now.  Building Ruby from scratch sure is a lot slower than a binary
-install though.
+RVM now.  It's a lot less invasive than the old RVM.
 
 Anyway, on with Chapter 2, "Instant Gratification".  I went ahead and 
 completed the code for this chapter and the exercises.  Both were fairly 
 trivial.  I checked it in at [demo51](http://github.com/llcawthorne/demo51).
 If you clone that and run `bin/rails server` from the directory, you're
-greeted by the site.  You get a lot for very little with rails.  The site
-you get just from running `rails new demo51` looks like this:
+greeted by the site at http://localhost:3000/.  You get a lot for very 
+little with Rails.  The site you get just from running `rails new demo51` 
+looks like this:
 
 ![rails welcome](/img/2017-05-18/rails.png)
 
 It also looks like the default server has changed from WEBrick to Puma now.
-But a page with a picture isn't all that impressive.  I will say that I 
+But a page with a picture isn't all that impressive.  I must say that I 
 find it pleasant how fast the server starts.  I've become used to my 
 Java EE servers with multiple minute startup times before you can see 
 changes, but not only does this server start fast, it loads changes on the
@@ -42,11 +42,12 @@ The whole application in this chapter is a Hello World modified with a
 timestamp to show something dynamic.  To do this, we need to generate a 
 new controller.  Going to the directory of our app and running
 `bin/rails generate controller Say hello goodbye` will generate a 
-controller named Say with methods hello and goodbye that will respond
+controller named Say with methods (in Rails terms, these controller
+methods are called actions) hello and goodbye that will respond
 to requests to `/say/hello` and `/say/goodbye`.  It puts the say controller
 in `demo51/app/controllers/say_controller.rb`.  This is the controller 
 that contains methods for all the `/say/` routes.  Its starting code 
-that was generated is just:
+that was generated is simply:
 
 ```ruby
 class SayController < ApplicationController
@@ -61,14 +62,15 @@ end
 Those methods obviously don't do much.  Because it inherits from
 `ApplicationController`, our `SayController` automatically gets all the
 default controller behavior.  Even though the controller methods don't
-have any logic, they still return a site when you navigate to the URL.
+have any logic, they still return a site when you navigate to the URL,
+because by convention they are associated with certain views.
 
 ![Say#hello](/img/2017-05-18/say-hello.png)
 
 The route informs of the file it is currently serving 
 `app/views/say/hello.html.erb`, which was also automatically generated
 when we created our controller with the command above.  If we edit the file
-it points us at, we find what looks like a normal html file body:
+it points us to, we find what looks like a normal html file body:
 
 ```erb
 <h1>Say#hello</h1>
@@ -125,7 +127,7 @@ It goes on to explain the step-by-step process of what the server goes
 through when responding to a request, at a very high level.  We then 
 customize our goodbye page, but you can checkout the git repo if you want 
 to see that or the results of completing either of the chapter's two 
-exercises.  The one other thing of interest it does in the app is add a 
+exercises.  The one remaining item of interest it does in the app is add a 
 link from the Hello page to the Goodbye page and vice versa.  It does
 this using built in helper methods rather than hardcoding URL's.  The new
 hello.html.erb looks like:
@@ -148,16 +150,16 @@ to the goodbye action of the say controller.
 Finally in this chapter, they display what happens when things break.  As
 the authors put it "the true test of the developer friendliness of a 
 framework is how it responds when things go wrong."  First, they ask 
-what would have if we misspelled Time.now as Time.know in our controller.
+what would happen if we misspelled Time.now as Time.know in our controller.
 Rails not only tells you the exact spot of the error, it also asks if you
-meant to type "now" and offers an interactive console:
+meant to type "now" and offers an interactive debugging console:
 
 ![rails error page](/img/2017-05-18/rails_know_error.png)
 
 And before you start worrying, the web console is only shown if your on the
-same machine as the web server, so there shouldn't be any chance of anyone
-getting into it in production unless you specifically whitelist more ips
-than localhost and even then it is only offered in development mode. 
+same machine as the web server and running in development mode, so there 
+shouldn't be any chance of anyone getting into it in production unless 
+you specifically whitelist more ips and run the server in development mode.
 Likewise, if you attempt to go to `http://localhost:3000/say/h3llo` instead
 of `/say/hello`, you get:
 
@@ -175,3 +177,6 @@ they did manage to cover:
 * How to link pages together
 * How to debug problems in code or the URL
 
+Looks like the next chapter covers a bit of MVC theory, and chapter 4 is a
+Rails review.  I'll probably comment on both in one quick post.  Then in
+Chapter 5, we dig into building a bigger application.
