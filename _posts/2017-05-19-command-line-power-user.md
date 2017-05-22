@@ -2,7 +2,7 @@
 layout: post
 title: "Command Line Power User"
 date: 2017-05-19
-tags: command-line video
+tags: command-line video zsh
 ---
 
 Well, I promised I would review 
