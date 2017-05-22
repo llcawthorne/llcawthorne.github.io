@@ -30,9 +30,9 @@ on prerequisite info and get directly to useful tips.
 
 Some tidbits that I've found useful so far are the keystrokes that he mentions
 being available in Insert mode.  I never paid attention to the fact that you
-can use <C-w> to delete back one word without leaving insert mode,
-<C-r>{register} to quickly paste the contents of a register, and
-<C-v>u{1234} to insert unicode character #1234, all without leaving insert
+can use &lt;C-w> to delete back one word without leaving insert mode,
+&lt;C-r>{register} to quickly paste the contents of a register, and
+&lt;C-v>u{1234} to insert unicode character #1234, all without leaving insert
 mode.  In both the previous examples, the selection in curly brackets is
 replaced with just a register or just a four digit number, the curly brackets
 are not typed literally.
@@ -42,10 +42,10 @@ I'll use the unicode one often enough to remember it, but the other two
 are pretty easy to remember and of general use.  There is no tip like
 "Here are some keystrokes for Insert mode." but the author instead worked
 providing these keystrokes into the explanation of how to do something.
-The <C-r>{register} keystroke was provided in the "Paste from a Register
-Without Leaving Insert Mode" tip which focused on it and <C-v>u{1234}
+The &lt;C-r>{register} keystroke was provided in the "Paste from a Register
+Without Leaving Insert Mode" tip which focused on it and &lt;C-v>u{1234}
 was from the "Insert Unusual Characters by Character Code" tip, but
-the <C-w> keystroke was provided in the more general "Make Corrections
+the &lt;C-w> keystroke was provided in the more general "Make Corrections
 Instantly from Insert Mode" tip.
 
 I learned a lot that I didn't know before in the section on Command-Line Mode.
