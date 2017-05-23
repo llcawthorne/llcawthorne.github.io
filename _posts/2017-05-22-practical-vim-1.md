@@ -58,12 +58,12 @@ I've used substitute a decent bit, but never remember knowing about the
 others and how you can make them all work flexibly with a range without
 having to move the cursor there first.  It's especially convenient that
 you can use V to switch into visual line mode and select some lines, then
-it will prepopulate the range of lines into your : for executing an Ex
+it will prepopulate the range of lines into your : for executing an ex
 command.  You can also use % to target the whole file with a command,
 which is how I'm accustomed to working with substitute.  As an example,
 `:%normal A;` will append a semicolon to every line in a file or
 `%normal i//` will comment out every line in a file given a language
-where `//` starts comments.  You can even write a script of Ex commands
+where `//` starts comments.  You can even write a script of ex commands
 and load it into vim with `:source {filename}`.
 
 I also learned that in you can use `:edit %:h` to load the working directory
@@ -74,7 +74,7 @@ vimrc.  You can even open a file in a nonexistant directory and then use
 `:!mkdir -p %:h` to create the directory so you can save the file.
 
 The only obvious problem I had with some of the content is that some of it
-(like the EX commands) is too vim specific to work with vim emulators.
+(like the ex commands) is too vim specific to work with vim emulators.
 Anymore, I spend a lot more time using IdeaVIM in IntelliJ than I clock with
 real vim, but that's largely a personal problem.  The author doesn't avoid
 forward references, which is only a problem if you're trying to read the
