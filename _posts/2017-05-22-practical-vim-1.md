@@ -99,7 +99,8 @@ certain commands.  He'll sometimes show how to do something in multiple
 ways that use the same number of keystrokes, and then explain why one way
 better fits the general vim mindset (which often means its better for
 re-use via the . command).  He does a lot of this early on in the book,
-but the tips later in the book he tends to show the one way to perform.
+but the tips later in the book he tends to show the one way to perform
+an operation.
 
 I'm only halfway through the book now, but this post is getting long
 enough.  I'll go ahead and post what I've written about the first half
