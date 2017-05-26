@@ -5,8 +5,6 @@ date: 2017-05-22
 tags: vim
 ---
 
-# Practical Vim, 2nd Edition - Second Half
-
 So, I promised I'ld mention what goodies I find in the second half of
 Practical Vim, 2nd Edition.  Here they are.
 
