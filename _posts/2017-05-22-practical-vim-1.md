@@ -30,9 +30,9 @@ on prerequisite info and get directly to useful tips.
 
 Some tidbits that I've found useful so far are the keystrokes that he mentions
 being available in Insert mode.  I never paid attention to the fact that you
-can use <C-w> to delete back one word without leaving insert mode,
-<C-r>{register} to quickly paste the contents of a register, and
-<C-v>u{1234} to insert unicode character #1234, all without leaving insert
+can use &lt;C-w> to delete back one word without leaving insert mode,
+&lt;C-r>{register} to quickly paste the contents of a register, and
+&lt;C-v>u{1234} to insert unicode character #1234, all without leaving insert
 mode.  In both the previous examples, the selection in curly brackets is
 replaced with just a register or just a four digit number, the curly brackets
 are not typed literally.
@@ -42,10 +42,10 @@ I'll use the unicode one often enough to remember it, but the other two
 are pretty easy to remember and of general use.  There is no tip like
 "Here are some keystrokes for Insert mode." but the author instead worked
 providing these keystrokes into the explanation of how to do something.
-The <C-r>{register} keystroke was provided in the "Paste from a Register
-Without Leaving Insert Mode" tip which focused on it and <C-v>u{1234}
+The &lt;C-r>{register} keystroke was provided in the "Paste from a Register
+Without Leaving Insert Mode" tip which focused on it and &lt;C-v>u{1234}
 was from the "Insert Unusual Characters by Character Code" tip, but
-the <C-w> keystroke was provided in the more general "Make Corrections
+the &lt;C-w> keystroke was provided in the more general "Make Corrections
 Instantly from Insert Mode" tip.
 
 I learned a lot that I didn't know before in the section on Command-Line Mode.
@@ -58,12 +58,12 @@ I've used substitute a decent bit, but never remember knowing about the
 others and how you can make them all work flexibly with a range without
 having to move the cursor there first.  It's especially convenient that
 you can use V to switch into visual line mode and select some lines, then
-it will prepopulate the range of lines into your : for executing an Ex
+it will prepopulate the range of lines into your : for executing an ex
 command.  You can also use % to target the whole file with a command,
 which is how I'm accustomed to working with substitute.  As an example,
 `:%normal A;` will append a semicolon to every line in a file or
 `%normal i//` will comment out every line in a file given a language
-where `//` starts comments.  You can even write a script of Ex commands
+where `//` starts comments.  You can even write a script of ex commands
 and load it into vim with `:source {filename}`.
 
 I also learned that in you can use `:edit %:h` to load the working directory
@@ -74,7 +74,7 @@ vimrc.  You can even open a file in a nonexistant directory and then use
 `:!mkdir -p %:h` to create the directory so you can save the file.
 
 The only obvious problem I had with some of the content is that some of it
-(like the EX commands) is too vim specific to work with vim emulators.
+(like the ex commands) is too vim specific to work with vim emulators.
 Anymore, I spend a lot more time using IdeaVIM in IntelliJ than I clock with
 real vim, but that's largely a personal problem.  The author doesn't avoid
 forward references, which is only a problem if you're trying to read the
@@ -99,7 +99,8 @@ certain commands.  He'll sometimes show how to do something in multiple
 ways that use the same number of keystrokes, and then explain why one way
 better fits the general vim mindset (which often means its better for
 re-use via the . command).  He does a lot of this early on in the book,
-but the tips later in the book he tends to show the one way to perform.
+but the tips later in the book he tends to show the one way to perform
+an operation.
 
 I'm only halfway through the book now, but this post is getting long
 enough.  I'll go ahead and post what I've written about the first half
