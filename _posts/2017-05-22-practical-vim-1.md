@@ -106,3 +106,5 @@ I'm only halfway through the book now, but this post is getting long
 enough.  I'll go ahead and post what I've written about the first half
 of the book, and add another post later if I find some awesome tips
 worth mentioning in the latter half of this book.
+
+[Second Half](http://llcawthorne.github.io/blog/2017/05/22/practical-vim-2)
