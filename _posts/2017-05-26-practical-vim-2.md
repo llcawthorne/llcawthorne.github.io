@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Practical Vim, 2nd Edition - Second Half"
-date: 2017-05-22
+date: 2017-05-26
 tags: vim
 ---
-
-# Practical Vim, 2nd Edition - Second Half
 
 So, I promised I'ld mention what goodies I find in the second half of
 Practical Vim, 2nd Edition.  Here they are.
@@ -117,7 +115,7 @@ I think the argument has won me over well enough to use `\v` most of
 the time and `\V` on special occassions.
 
 Another handy fact for regular expressions is that in `verymagic` search
-mode, the `&lt;` and `>` keys match word boundaries.  So a search for
+mode, the `<` and `>` keys match word boundaries.  So a search for
 `\v<the>` will find all the "the" occurrences without any "their" or
 "these" being matched.  It goes on to cover some ways to handle search
 field terminators in the final tip of the chapter.
@@ -166,10 +164,10 @@ that will use it with the `:ack` command.
 ## Chapter 19 - Dial X for Autocompletion
 
 There's plugins for better autocompletion than what's built in.  It looks like
-you can complete based off ctags with `&lt;C-x>&lt;C-]>` or use 
-`&lt;C-x>&lt;C-i>` to complete based off your imports in various languages.
-Generic autocompletion is based off `&lt;C-n>` and is probably best of the
-built-ins.  You use `&lt;C-n>` and `&lt;C-p` to choose next  or previous.
+you can complete based off ctags with `<C-x><C-]>` or use 
+`<C-x><C-i>` to complete based off your imports in various languages.
+Generic autocompletion is based off `<C-n>` and is probably best of the
+built-ins.  You use `<C-n>` and `<C-p` to choose next  or previous.
 
 ## Chapter 20 - Find and Fix Typos with Vim's Spell Checker
 
@@ -178,7 +176,7 @@ think I learned is that `z=` on a misspelled word will bring up suggestions
 and `[s` and `]s` let you jump between misspelled words.  I was able to try
 those out successfully while writing this blog post.  `zg` adds a word to the
 spell file, which worked great to add "blog".  Apparently, you can fix
-misspelled words without leaving Insert mode with `&lt;C-x>s` to
+misspelled words without leaving Insert mode with `<C-x>s` to
 enable autocomplete misspelled mode.  It will jump you back to the last
 misspelled word and offer suggestions from the dictionary.  Pretty handy!
 
