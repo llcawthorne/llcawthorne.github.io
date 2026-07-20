@@ -1,3 +1,34 @@
 baseURL = 'https://llcawthorne.github.io/'
 locale = 'en-us'
 title = "Notes from Lewis"
+theme = "basic"
+gh_url = "https://api.github.com/users"
+gh_user = "llcawthorne"
+pygmentsUseClasses = true
+Paginate = 10
+disqusShortname = "lewis-cawthorne-homepage"
+
+[params]
+  author = "Lewis Cawthorne"
+  description = "Notes from Lewis"
+[permalinks]
+  posts = "posts/:year/:month/:slug/"
+  year = "/posts/:slug/"
+  month = "/posts/:slug/"
+[related]
+  threshold = 80.0
+  includeNewer = false
+  toLower = true
+
+  [[related.indice]]
+  name = "tags"
+  weight = 100.0
+
+  [[related.indice]]
+  name = "date"
+  weight = 10.0
+
+[taxonomies]
+  year = "year"
+  month = "month"
+  tag = "tags"

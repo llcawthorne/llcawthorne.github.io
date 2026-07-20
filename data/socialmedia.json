@@ -1,0 +1,20 @@
+{ "accounts":
+  [
+    {
+      "name": "Github",
+      "url": "https://www.github.com/llcawthorne"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/llcawthorne"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/llcawthorne"
+    },
+    {
+      "name": "My Fitness Log",
+      "url": "https://rebellion.nerdfitness.com/topic/124542-llcawthorne’s-daily-battle-log/"
+    }
+  ]
+}
