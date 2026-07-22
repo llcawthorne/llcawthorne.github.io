@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sat, 11 Jul 2026 20:05:55 -0400</lastBuildDate>
+			<lastBuildDate>Tue, 21 Jul 2026 19:03:29 -0400</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/2026/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>My Vacation</title>
+				<link>http://localhost:1313/posts/2026/07/my-vacation/</link>
+				<pubDate>Tue, 21 Jul 2026 19:03:29 -0400</pubDate>
+				<guid>http://localhost:1313/posts/2026/07/my-vacation/</guid>
+				<description>&lt;p&gt;Here are pictures from my recent trip to South Dakota.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&lt;figure class=&#34;post-figure&#34;&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/posts/2026/07/my-vacation/images/rushmore.jpg&#34;&gt;&#xA;    &#xA;    &lt;img src=&#34;http://localhost:1313/posts/2026/07/my-vacation/images/rushmore_hu_f952b7fe43f04ff6.jpg&#34;&#xA;      width=&#34;1024&#34; height=&#34;686&#34;&#xA;      alt=&#34;Mount Rushmore&#34; /&gt;&#xA;    &#xA;  &lt;/a&gt;&#xA;  &lt;figcaption&gt;Mount Rushmore&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;post-figure&#34;&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/posts/2026/07/my-vacation/images/badlands.jpg&#34;&gt;&#xA;    &#xA;    &lt;img src=&#34;http://localhost:1313/posts/2026/07/my-vacation/images/badlands_hu_e6ac8f9c79c902d.jpg&#34;&#xA;      width=&#34;1024&#34; height=&#34;1529&#34;&#xA;      alt=&#34;The Badlands&#34; /&gt;&#xA;    &#xA;  &lt;/a&gt;&#xA;  &lt;figcaption&gt;The Badlands&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;post-figure&#34;&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/posts/2026/07/my-vacation/images/bison.jpg&#34;&gt;&#xA;    &#xA;    &lt;img src=&#34;http://localhost:1313/posts/2026/07/my-vacation/images/bison_hu_ec76435f21bc4859.jpg&#34;&#xA;      width=&#34;1024&#34; height=&#34;686&#34;&#xA;      alt=&#34;Bison at Custer National Park&#34; /&gt;&#xA;    &#xA;  &lt;/a&gt;&#xA;  &lt;figcaption&gt;Bison at Custer National Park&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Third Post</title>
 				<link>http://localhost:1313/posts/2026/07/third-post/</link>
