@@ -1,0 +1,110 @@
+baseURL = 'https://llcawthorne.github.io/'
+locale = 'en-us'
+title = "Senior Software Engineer Learns Functional Programming"
+theme = "PaperMod"
+pygmentsUseClasses = true
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  author = "Lewis Cawthorne"
+  description = "Notes from Lewis"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  ShowToc = true
+  displayFullLangName = true
+
+  [params.homeInfoParams]
+    Title = "Senior Software Engineer Learns Functional Programming"
+    Content = "With explorations in Haskell, Elixir, and Clojure. Plus book reviews, side project notes, and occasional dives into different web frameworks."
+
+  [params.footer]
+    text = "[Subscribe via RSS](/index.xml)"
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/llcawthorne"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/llcawthorne"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:llcawthorne@gmail.com"
+
+[[params.socialIcons]]
+  name = "facebook"
+  url = "https://facebook.com/llcawthorne"
+
+[[params.socialIcons]]
+  name = "x"
+  url = "https://twitter.com/llcawthorne"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 25
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume/"
+  weight = 40
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 50
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 60
+
+[markup]
+  [markup.highlight]
+    noClasses = false

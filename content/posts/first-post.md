@@ -1,25 +1,12 @@
 ---
-title: "First Post"
-date: 2026-07-11T09:48:31-04:00
-draft: false
-author: Lewis Cawthorne
-year: "2026"
-month: "2026/07"
-tags:
-  - software
-  - html
-disableComments: true
+title: "Lewis Cawthorne Launches Site"
+date: 2017-05-15
+tags: []
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
 
-<!--more -->
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat.
-
-```javascript
-let x = 25;
-let y = 30;
-```
+Finally got around to putting something together for my github.io site other
+than what the generator spit out.  I went ahead and took advantage of the fact
+that they let you layout your site with [Jekyll](http://jekyllrb.com) to play
+with some "new to me" tech.  I can write up the posts in Markdown, so maybe it
+will be easy enough that I actually start blogging here.

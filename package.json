@@ -1,23 +1,10 @@
 {
-  "name": "portfolio",
+  "name": "llcawthorne.github.io",
   "version": "1.0.0",
-  "description": "My portfolio",
+  "description": "Notes from Lewis",
   "private": true,
   "scripts": {
-    "hugo-build": "hugo --cleanDestinationDir",
-    "hugo-server": "hugo server --disableFastRender",
-    "webpack": "webpack",
-    "webpack-watch": "webpack --watch",
-    "build": "npm-run-all webpack hugo-build",
-    "dev": "npm-run-all webpack --parallel webpack-watch hugo-server"
-  },
-  "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "webpack": "^5.108.4",
-    "webpack-cli": "^7.2.1"
-  },
-  "dependencies": {
-    "axios": "^1.18.1",
-    "lunr": "^2.3.9"
+    "build": "hugo --cleanDestinationDir",
+    "dev": "hugo server --disableFastRender"
   }
 }

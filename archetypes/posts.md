@@ -1,16 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: '{{ .Date }}'
 draft: true
-author: Lewis Cawthorne
-year: "{{ dateFormat "2006" .Date }}"
-month: "{{ dateFormat "2006/01" .Date }}"
+tags: []
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-
-<!--more -->
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat.
