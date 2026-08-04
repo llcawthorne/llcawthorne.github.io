@@ -4,6 +4,7 @@ title = "Senior Software Engineer Learns Functional Programming"
 theme = "PaperMod"
 pygmentsUseClasses = true
 paginate = 10
+titleCaseStyle = "none"
 
 enableRobotsTXT = true
 buildDrafts = false
