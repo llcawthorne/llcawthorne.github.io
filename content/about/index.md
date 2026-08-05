@@ -4,6 +4,8 @@ date: 2026-08-03
 ShowReadingTime: false
 ---
 
+<img src="images/lewis-and-vader.jpg" alt="Lewis Cawthorne with Darth Vader at Disney's Hollywood Studios" style="display: block; max-width: 320px; width: 100%; margin: 0 auto; border-radius: var(--radius);" />
+
 I'm Lewis Cawthorne, a Senior Software Developer at EXL. All posts here are
 my own opinions and are in no way reflective of my employer. Day to day I
 work on the Subrosource platform: an OSGi backend, an Angular frontend,
