@@ -64,10 +64,6 @@ buildExpired = false
   url = "https://facebook.com/llcawthorne"
 
 [[params.socialIcons]]
-  name = "x"
-  url = "https://twitter.com/llcawthorne"
-
-[[params.socialIcons]]
   name = "rss"
   url = "/index.xml"
 
