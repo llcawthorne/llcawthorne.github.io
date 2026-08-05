@@ -30,6 +30,13 @@ buildExpired = false
   ShowShareButtons = false
   ShowToc = true
   displayFullLangName = true
+  comments = true
+
+  [params.giscus]
+    repo = "llcawthorne/llcawthorne.github.io"
+    repoId = "MDEwOlJlcG9zaXRvcnk1MjM5NDUyMA=="
+    category = "Announcements"
+    categoryId = "DIC_kwDOAx96GM4DCujL"
 
   [params.homeInfoParams]
     Title = "Senior Software Engineer Learns Functional Programming"
