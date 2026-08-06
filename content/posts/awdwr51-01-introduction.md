@@ -30,7 +30,7 @@ front-end with a Rails backend, so I'll get in some Javascript before I'm
 through.
 
 The introduction is well paced.  The parts I feel worth mentioning are
-it's argument that "Rails Simply Feels Right", which I am inclined to agree
+its argument that "Rails Simply Feels Right", which I am inclined to agree
 with.  I've always thought of Rails as the cadillac of web frameworks.
 There's a lot of ways to do the same old CRUD in other frameworks, it's 
 just rails has polish and a certain thoughtfulness of layout that makes it
@@ -106,8 +106,8 @@ too easy for the core ideas to get lost in the ceremony of scrums and
 sprint planning meetings and the artifacts of burndown charts.
 
 Who is this book for?  It's aimed at application programmers who want to 
-build and deploy web based applications.  It's fine if your new to Rails, 
-and it might be fine even if your new to Ruby.  My Ruby is rusty enough 
+build and deploy web based applications.  It's fine if you're new to Rails, 
+and it might be fine even if you're new to Ruby.  My Ruby is rusty enough 
 that I had to review at 
 [Learn X in Y Minutes](https://learnxinyminutes.com/docs/ruby/), 
 but that's a good sign I should

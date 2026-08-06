@@ -111,10 +111,13 @@ again, it will give me something to blog about.
 
 Why do I think blogging will catch on this time? Well, what made me give up
 my side projects and blogging before was primarily being burnt out on spending
-all day coding at work to get off and do more of it at night. With the advent
-of AI, I no longer spend a lot of time coding, so I thought it would be fun
-to reindulge in some hobby projects to keep my skills sharp. Aside from that,
-I've been rather good lately at putting my mind to stuff and keeping it going.
+all day coding at work to get off and do more of it at night. Now that my kid
+is older and I've got more time to focus on personal development, I figured
+why not fire the blog back up so I can shout my book reviews and whatnot into
+the void. Aside from that, work has us leaning a lot more on AI for writing
+code these days, so it's as good an excuse as any to keep my own skills sharp
+with some side projects. I've also been rather good lately at putting my mind
+to stuff and keeping it going.
 I lost about 40 pounds and run 10K every day I don't lift weights. So maybe
 I can stay focused on something intellectual too. Also, I still run over an
 hour most days a week, which gives me a great opportunity to listen to a
@@ -172,12 +175,12 @@ figure out. Likewise, I didn't make straight A's in school because I
 expected it to help my
 job prospects. No one cares about my GPA. I loved the material! It was
 fascinating to learn about algorithms, operating systems, and, after
-programming so long, compilers. Somewhere along the way, it became just a job
-and I started feeling pretty grinded down. So it's a combination of the fact
-that AI does all the coding at work so I need to code on the side to keep
-my skills sharp, a refound passion for programming inspired by a rather
-unlikely source, and the fact I've been
-reading every day over a year anyway, so why not make it technical.
+programming so long, compilers. Somewhere along the way, it just became work
+like any other job. So it's a combination of factors: having more free time
+now that my kid's a little older, work leaning harder on AI for the actual
+code these days so I want to keep my own chops sharp on the side, a refound
+passion for programming inspired by a rather unlikely source, and the fact
+I've been reading every day over a year anyway, so why not make it technical.
 I still don't know functional programming beyond how to apply a good
 map and filter, and I still haven't tried a lot of different web frameworks.
 They're all likely to be better than the Java EE/Spring hybrid monstrosity

@@ -19,7 +19,7 @@ that make up Spring...  Spring MVC, Spring Rest, Spring Data, Spring Security,
 etc.
 
 This author made it really hard to code along with him.  He did things 
-like restart a project with unknown initialzr settings in between
+like restart a project with unknown initializr settings in between
 videos.  He also copied and pasted a lot of code, so you couldn't really
 type along with him.  As long as you don't mind pausing and typing 
 something in, it wasn't unworkable, but it got a little old.  I ended up
@@ -27,7 +27,7 @@ checking out his repo of code samples and following along with them.
 He does have exercises at the end of each section, which are a good
 chance to code some stuff up on your own.  He doesn't mention specifically
 when he changes projects from the repo either, so it's a little hit and
-miss making sure your looking at the right code that he's working on.
+miss making sure you're looking at the right code that he's working on.
 
 One nice thing is this guy used IntelliJ instead of Eclipse.  He admitted
 that you need the paid for version to work with Spring, but just told
@@ -98,7 +98,7 @@ spring security to enforce editing only by those with admin level privileges.
 I still need to read the docs on thymeleaf templates to feel like I know
 much about them, since he always provides the templates and doesn't explain
 much.  They look pretty simple.  Extra attributes to HTML tags causes you
-to override content that is present in the source and do other modificiations.
+to override content that is present in the source and do other modifications.
 Like `<span sec:authentication="name">Guest</span>` will default to Guest,
 but will override that value with the name of whoever is currently 
 authenticated.  Judging from the upcoming titles, he's going to throw in
@@ -109,6 +109,6 @@ at all.  I got validation working pretty good with the default error
 messages at least.  He claims you just need to put your custom messages
 in a messages.properties file, but I did that and they didn't get picked up.
 I assume I have to do something to get it to look in message.properties. 
-Everyone on stack overflow with a related problem seems to be running WAR's, 
+Everyone on stack overflow with a related problem seems to be running WARs, 
 so those questions don't seem to apply to my setup.  I'll dig in the 
 documentation later and see what's going on.

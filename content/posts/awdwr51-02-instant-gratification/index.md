@@ -5,7 +5,7 @@ tags: ["ruby", "rails", "web"]
 ---
 
 
-First I'ld like to say sorry the images are a little big.  Not used to 
+First I'd like to say sorry the images are a little big.  Not used to 
 screencaps on this retina Macbook.  
 
 So, I fixed my mistake from last time.  I had originally installed ruby via 
@@ -156,7 +156,7 @@ meant to type "now" and offers an interactive debugging console:
 
 ![rails error page](images/rails_know_error.png)
 
-And before you start worrying, the web console is only shown if your on the
+And before you start worrying, the web console is only shown if you're on the
 same machine as the web server and running in development mode, so there 
 shouldn't be any chance of anyone getting into it in production unless 
 you specifically whitelist more ips and run the server in development mode.

@@ -5,7 +5,7 @@ tags: ["vim"]
 ---
 
 
-So, I promised I'ld mention what goodies I find in the second half of
+So, I promised I'd mention what goodies I find in the second half of
 Practical Vim, 2nd Edition.  Here they are.
 
 ## Chapter 10, Copy and Paste
@@ -112,7 +112,7 @@ search.  So ultimately, both the `\v` and `\V` search options are
 terribly useful and worth remembering.  A good example of the `\V` option
 is searching for "a.k.a." with `/\Va.k.a.` instead of `/a\.k\.a\.`
 I think the argument has won me over well enough to use `\v` most of
-the time and `\V` on special occassions.
+the time and `\V` on special occasions.
 
 Another handy fact for regular expressions is that in `verymagic` search
 mode, the `<` and `>` keys match word boundaries.  So a search for
@@ -122,10 +122,10 @@ field terminators in the final tip of the chapter.
 
 ## Chapter 13 - Searching, 14 - Substitution, 15 - Global Commands
 
-I didn't find anything in these to chapters particularly worthwhile, except
+I didn't find anything in these two chapters particularly worthwhile, except
 the fact that you can leave the search part of a substitute command blank
 to use whatever the last successful search was as the pattern.  That
-decouples findint the right search pattern from the overall substitute
+decouples finding the right search pattern from the overall substitute
 command, and you normally want to search first anyway to make sure you
 got your pattern right before making changes.   The search and replace
 across a project tip was possibly useful.  Everything about the global

@@ -16,7 +16,7 @@ since he just came out with a Learn Node course and has another longer free
 course of Javascript projects, I figured why not try the little course to get 
 a feel for his teaching style and see if I want to invest any more time 
 and/or money in more of
-his courses later.  His other free courses if your interested include
+his courses later.  His other free courses if you're interested include
 [Command Line Power User](https://commandlinepoweruser.com/) which has some
 Z shell tips that I might check out, since I'm sure I'm not making the most 
 of it, and [JavaScript 30](https://javascript30.com/)
@@ -28,7 +28,7 @@ only invest time in if I like these two.  Well, without further ado, here's
 my opinion of [Mastering Markdown](https://masteringmarkdown.com/).
 
 Good to see that he isn't opinionated about editors.  He says use whatever 
-editor your most comfortable with, even vim.  He uses Sublime Text though 
+editor you're most comfortable with, even vim.  He uses Sublime Text though 
 and recommends a package for it, if you use it.  I went ahead and installed
 it in my copy of Sublime Text.  It's called MarkdownEditing and has a lot
 more features than the built in Sublime Markdown package.  I spent almost 

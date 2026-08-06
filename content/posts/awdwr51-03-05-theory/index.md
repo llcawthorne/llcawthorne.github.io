@@ -18,7 +18,7 @@ rules that apply to your data.  The model is both a gatekeeper and a data
 store.  The *view* is responsible for generating some type of user
 interface.  The view's job is done once the data is displayed.
 Multiple possible views of the same data are a common case.  The
-*controller* orechestrates the application.  Controllers receive events from
+*controller* orchestrates the application.  Controllers receive events from
 the outside world, interact with the model, and display the appropriate
 view.  The book provides a simple diagram:
 
@@ -61,7 +61,7 @@ Or you could have a class level method that searches by a where clause and
 returns a collection of objects:
 
 ```ruby
-Order.where(name: 'dave'.each do |order|
+Order.where(name: 'dave').each do |order|
   puts order.amount
 end
 ```
@@ -102,7 +102,7 @@ behind-the scenes makes controller code easy to develop and maintain.
 
 ### Chapter 4 - Introduction to Ruby
 
-All of Chapter 4 is focused on a quick review of Ruby.  I'ld recommend
+All of Chapter 4 is focused on a quick review of Ruby.  I'd recommend
 a refresher at [learnxiyminutes](https://learnxinyminutes.com/docs/ruby/)
 if your Ruby is a little rusty or checkout the 
 [zenspider quickref](http://www.zenspider.com/ruby/quickref.html).  
