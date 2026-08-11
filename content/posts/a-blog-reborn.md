@@ -14,6 +14,9 @@ so I could do worse than looking back at the web framework that really started
 it all. So I will read Agile Web Development with Rails 8 and get a taste of
 convention before configuration. That doesn't really fit with the new title
 of the blog, but it's still something I want to do, so I will get it done.
+I was interested in functional programming and different approaches to web
+development 10 years ago, and have never fully explored either, so I'm picking
+up where I left off with a slightly updated approach.
 
 ## Haskell
 
@@ -101,7 +104,13 @@ been toying around with Kotlin and would love an excuse to go back, so I would
 like to try Spring with Kotlin for the big enterprise way of doing a web
 framework along with Ktor for a lighter weight framework in the same language.
 I could code Spring in Java, but I do like not coding in Java when I'm away
-from work and find Kotlin a fun alternative. That's as far as I've thought
+from work and find Kotlin a fun alternative. Spring and Angular are probably
+the most professionally relevant interests that I'll be pursuing, but it's
+obvious that I'm not trying to maximize for utility. I do really think it
+very clever that the new project at work is leaning into a modern Angular UI
+with a Java backend instead of using any of the trainwreck front end projects
+available on the Java platform. JSF was bad enough to make me never want to
+see a Java frontend again. Anyway, that's as far as I've thought
 these two projects through, but if I make it that far with them, I'll have
 a better idea of what I want to do next. Put together, they should keep me
 busy for a while, and assuming I don't give up blogging for ten years or so
