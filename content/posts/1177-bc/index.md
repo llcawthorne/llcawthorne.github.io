@@ -2,7 +2,7 @@
 title: '1177 BC'
 date: '2026-09-25T18:45:00-04:00'
 draft: false
-tags: [history, book-review]
+tags: [history, book-review, audiobook]
 ---
 
 ![1177 BC cover](images/cover.jpg)
