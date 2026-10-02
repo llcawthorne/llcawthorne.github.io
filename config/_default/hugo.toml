@@ -28,6 +28,7 @@ buildExpired = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowShareButtons = false
+  ShowFullTextinRSS = true
   ShowToc = true
   displayFullLangName = true
   comments = true

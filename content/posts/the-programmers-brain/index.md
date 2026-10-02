@@ -1,5 +1,5 @@
 ---
-title: 'The Programmer's Brain'
+title: "The Programmer's Brain"
 date: '2026-10-07T06:00:00-04:00'
 draft: false
 tags: [architecture, book-review, audiobook]
