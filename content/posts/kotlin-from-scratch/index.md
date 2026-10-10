@@ -2,7 +2,7 @@
 title: 'Kotlin from Scratch'
 date: '2026-09-26T21:00:00-04:00'
 draft: false
-tags: [kotlin, book-review]
+tags: [kotlin, programming, book-review]
 ---
 
 ![Kotlin from Scratch cover](images/cover.jpg)

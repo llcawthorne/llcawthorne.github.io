@@ -2,7 +2,7 @@
 title: 'Learn Haskell by Building a Blog Generator'
 date: '2026-10-30T06:00:00-04:00'
 draft: false
-tags: [haskell, book-review]
+tags: [haskell, functional-programming, programming, book-review]
 ---
 
 [*Learn Haskell by Building a Blog Generator*](https://learn-haskell.blog/) is a

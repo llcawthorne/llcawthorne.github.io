@@ -2,7 +2,7 @@
 title: 'Advanced Functional Programming with Elixir'
 date: '2026-10-09T06:00:00-04:00'
 draft: false
-tags: [elixir, functional-programming, book-review]
+tags: [elixir, functional-programming, programming, book-review]
 ---
 
 ![Advanced Functional Programming with Elixir cover](images/cover.jpg)

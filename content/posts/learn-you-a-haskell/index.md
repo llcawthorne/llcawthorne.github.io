@@ -2,7 +2,7 @@
 title: 'Learn You a Haskell for Great Good!'
 date: '2026-10-26T06:00:00-04:00'
 draft: false
-tags: [haskell, book-review]
+tags: [haskell, functional-programming, programming, book-review]
 ---
 
 ![Learn You a Haskell for Great Good! cover](images/cover.jpg)

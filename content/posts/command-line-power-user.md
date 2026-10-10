@@ -1,7 +1,7 @@
 ---
 title: "Command Line Power User"
 date: 2017-05-19
-tags: ["command-line", "video", "zsh"]
+tags: ["command-line", "tools", "video", "zsh"]
 ---
 
 

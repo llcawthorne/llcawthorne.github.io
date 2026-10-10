@@ -1,7 +1,7 @@
 ---
 title: "Udemy - Spring Boot Intro"
 date: 2017-06-22
-tags: ["java", "spring", "video", "web"]
+tags: ["java", "spring", "video", "web", "programming"]
 ---
 
 

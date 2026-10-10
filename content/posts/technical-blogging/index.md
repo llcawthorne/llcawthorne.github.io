@@ -2,7 +2,7 @@
 title: 'Technical Blogging'
 date: '2026-10-19T06:00:00-04:00'
 draft: false
-tags: [blogging, book-review]
+tags: [blogging, writing, book-review]
 ---
 
 ![Technical Blogging cover](images/cover.jpg)

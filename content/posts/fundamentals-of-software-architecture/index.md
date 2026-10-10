@@ -2,7 +2,7 @@
 title: 'Fundamentals of Software Architecture'
 date: '2026-10-14T06:00:00-04:00'
 draft: false
-tags: [architecture, book-review, audiobook]
+tags: [architecture, programming, book-review, audiobook]
 ---
 
 ![Fundamentals of Software Architecture cover](images/cover.jpg)

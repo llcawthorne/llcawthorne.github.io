@@ -2,7 +2,7 @@
 title: 'A Blog Reborn'
 date: '2026-08-04T17:07:11-04:00'
 draft: false
-tags: [blog, haskell, clojure, elixir, web-frameworks]
+tags: [blog, haskell, clojure, elixir, functional-programming, web-frameworks, programming]
 ---
 
 So, I haven't been blogging for about ten years. To tell the truth, I spent

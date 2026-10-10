@@ -2,7 +2,7 @@
 title: 'Grokking Simplicity'
 date: '2026-10-16T06:00:00-04:00'
 draft: false
-tags: [functional-programming, book-review]
+tags: [functional-programming, programming, book-review]
 ---
 
 ![Grokking Simplicity cover](images/cover.jpg)

@@ -2,7 +2,7 @@
 title: 'Automate the Boring Stuff with Python'
 date: '2026-09-19T15:00:00-04:00'
 draft: false
-tags: [python, book-review]
+tags: [python, programming, book-review]
 ---
 
 ![Automate the Boring Stuff with Python cover](images/cover.jpg)

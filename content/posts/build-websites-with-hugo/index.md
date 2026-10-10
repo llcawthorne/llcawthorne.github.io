@@ -2,7 +2,7 @@
 title: 'Build Websites with Hugo'
 date: '2026-10-01T16:45:00-04:00'
 draft: false
-tags: [hugo, book-review]
+tags: [hugo, tools, programming, book-review]
 ---
 
 ![Build Websites with Hugo cover](images/cover.jpg)

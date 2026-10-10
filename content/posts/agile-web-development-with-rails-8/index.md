@@ -2,7 +2,7 @@
 title: 'Agile Web Development with Rails 8'
 date: '2026-10-23T06:00:00-04:00'
 draft: false
-tags: [ruby, rails, web-frameworks, book-review]
+tags: [ruby, rails, web-frameworks, programming, book-review]
 ---
 
 ![Agile Web Development with Rails 8 cover](images/cover.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "AWDWR 5.1 - 02 - Instant Gratification"
 date: 2017-05-18
-tags: ["ruby", "rails", "web"]
+tags: ["ruby", "rails", "web", "programming"]
 ---
 
 

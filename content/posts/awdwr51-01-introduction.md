@@ -1,7 +1,7 @@
 ---
 title: "AWDWR 5.1 - 01 - Introduction"
 date: 2017-05-16
-tags: ["ruby", "rails", "web"]
+tags: ["ruby", "rails", "web", "programming"]
 ---
 
 

@@ -2,7 +2,7 @@
 title: 'Learn Functional Programming with Elixir'
 date: '2026-10-05T06:00:00-04:00'
 draft: false
-tags: [elixir, book-review]
+tags: [elixir, functional-programming, programming, book-review]
 ---
 
 ![Learn Functional Programming with Elixir cover](images/cover.jpg)

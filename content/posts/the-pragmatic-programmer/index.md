@@ -2,7 +2,7 @@
 title: 'The Pragmatic Programmer'
 date: '2026-10-12T06:00:00-04:00'
 draft: false
-tags: [architecture, book-review, audiobook]
+tags: [architecture, programming, book-review, audiobook]
 ---
 
 ![The Pragmatic Programmer cover](images/cover.jpg)

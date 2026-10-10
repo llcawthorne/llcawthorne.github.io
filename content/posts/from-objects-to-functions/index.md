@@ -2,7 +2,7 @@
 title: 'From Objects to Functions'
 date: '2026-09-27T15:00:00-04:00'
 draft: false
-tags: [kotlin, book-review]
+tags: [kotlin, functional-programming, programming, book-review]
 ---
 
 ![From Objects to Functions cover](images/cover.jpg)

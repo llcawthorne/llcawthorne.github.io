@@ -1,7 +1,7 @@
 ---
 title: "Mastering Markdown"
 date: 2017-05-17
-tags: ["markdown", "video"]
+tags: ["markdown", "tools", "video"]
 ---
 
 

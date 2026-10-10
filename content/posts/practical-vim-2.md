@@ -1,7 +1,7 @@
 ---
 title: "Practical Vim, 2nd Edition - Second Half"
 date: 2017-05-26
-tags: ["vim"]
+tags: ["vim", "tools"]
 ---
 
 

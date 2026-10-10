@@ -2,7 +2,7 @@
 title: 'Go Language Opinions'
 date: '2026-09-12T18:00:00-04:00'
 draft: false
-tags: [go, opinions]
+tags: [go, programming, opinions]
 ---
 
 Go's tooling is what stuck with me the most. gofmt is flawless, even on case

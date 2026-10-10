@@ -2,7 +2,7 @@
 title: 'Head First Go'
 date: '2026-08-11T18:00:00-04:00'
 draft: false
-tags: [go, book-review]
+tags: [go, programming, book-review]
 ---
 
 ![Head First Go cover](images/cover.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "AWDWR 5.1 - 03-05 - Theory"
 date: 2017-06-05
-tags: ["ruby", "rails", "web"]
+tags: ["ruby", "rails", "web", "programming"]
 ---
 
 

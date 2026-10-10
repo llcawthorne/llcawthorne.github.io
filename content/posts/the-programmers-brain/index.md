@@ -2,7 +2,7 @@
 title: "The Programmer's Brain"
 date: '2026-10-07T06:00:00-04:00'
 draft: false
-tags: [architecture, book-review, audiobook]
+tags: [architecture, programming, book-review, audiobook]
 ---
 
 ![The Programmer's Brain cover](images/cover.jpg)

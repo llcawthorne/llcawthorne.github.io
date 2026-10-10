@@ -1,7 +1,7 @@
 ---
 title: "Misc Reading"
 date: 2017-06-02
-tags: ["misc", "ruby"]
+tags: ["misc", "ruby", "programming"]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "O'Reilly Spring Framework Essentials"
 date: 2017-06-26
-tags: ["java", "spring", "video", "web"]
+tags: ["java", "spring", "video", "web", "programming"]
 ---
 
 
