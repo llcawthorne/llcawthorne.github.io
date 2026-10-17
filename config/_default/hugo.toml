@@ -1,6 +1,6 @@
 baseURL = 'https://llcawthorne.github.io/'
 locale = 'en-us'
-title = "Senior Software Engineer Learns Functional Programming"
+title = "Senior Software Engineer Learns"
 theme = "PaperMod"
 pygmentsUseClasses = true
 paginate = 10
@@ -19,7 +19,7 @@ buildExpired = false
 
 [params]
   author = "Lewis Cawthorne"
-  description = "Notes from Lewis"
+  description = "A senior software engineer's notes on web frameworks, functional programming, and the books behind them."
   defaultTheme = "dark"
   disableThemeToggle = false
   ShowReadingTime = true
@@ -40,8 +40,8 @@ buildExpired = false
     categoryId = "DIC_kwDOAx96GM4DCujL"
 
   [params.homeInfoParams]
-    Title = "Senior Software Engineer Learns Functional Programming"
-    Content = "With explorations in Haskell, Elixir, and Clojure. Plus book reviews, side project notes, and occasional dives into different web frameworks."
+    Title = "Senior Software Engineer Learns"
+    Content = "Book reviews and notes on [web frameworks](/tags/web-frameworks/) and [functional programming](/tags/functional-programming/), with Haskell, Elixir, and Clojure on the slow track. Plus whatever else I'm reading, from tools to history and philosophy."
 
   [params.footer]
     text = "[Subscribe via RSS](/index.xml)"
