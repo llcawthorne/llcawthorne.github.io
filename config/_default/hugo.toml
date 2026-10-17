@@ -1,6 +1,6 @@
 baseURL = 'https://llcawthorne.github.io/'
 locale = 'en-us'
-title = "Senior Software Engineer Learns"
+title = "Senior Software Engineer Reads"
 theme = "PaperMod"
 pygmentsUseClasses = true
 paginate = 10
@@ -40,7 +40,7 @@ buildExpired = false
     categoryId = "DIC_kwDOAx96GM4DCujL"
 
   [params.homeInfoParams]
-    Title = "Senior Software Engineer Learns"
+    Title = "Senior Software Engineer Reads"
     Content = "Book reviews and notes on [web frameworks](/tags/web-frameworks/) and [functional programming](/tags/functional-programming/), with Haskell, Elixir, and Clojure on the slow track. Plus whatever else I'm reading, from tools to history and philosophy."
 
   [params.footer]
