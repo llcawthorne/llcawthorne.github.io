@@ -7,12 +7,13 @@ tags: [rust, programming, book-review]
 
 ![The Rust Programming Language cover](images/cover.jpg)
 
-I just wrapped up *The Rust Programming Language*, specifically the Brown
-University interactive version, and the sheer volume of notes I ended up
-taking says a lot about how much substance is packed into it. It isn't often
-that an introductory language book doubles as a long-term reference you know
-you'll keep returning to, but this one definitely earns that spot, and I think
-it's easily the best starting point for anyone serious about learning Rust.
+I just wrapped up *The Rust Programming Language*, specifically the
+[Brown University interactive version](https://rust-book.cs.brown.edu), and the
+sheer volume of notes I ended up taking says a lot about how much substance is
+packed into it. It isn't often that an introductory language book doubles as a
+long-term reference you know you'll keep returning to, but this one definitely
+earns that spot, and I think it's easily the best starting point for anyone
+serious about learning Rust.
 
 The biggest strength of the book is how directly and thoroughly it tackles the
 genuinely hard parts of the language. It doesn't hand-wave ownership, borrowing,

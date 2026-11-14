@@ -5,8 +5,9 @@ draft: false
 tags: [rust, tools, programming, book-review]
 ---
 
-I worked through Rustlings as a companion to *The Rust Programming Language*
-(TRPL), specifically the Brown University interactive version. TRPL is
+I worked through [Rustlings](https://rustlings.rust-lang.org/) as a companion to
+*The Rust Programming Language* (TRPL), specifically the
+[Brown University interactive version](https://rust-book.cs.brown.edu). TRPL is
 notoriously theory-heavy and practice-light, and you can easily spend an hour
 reading dense chapters on ownership, lifetimes, or trait bounds without writing
 a single line of standalone code. Rustlings exists to bridge that specific gap.
